@@ -1,0 +1,634 @@
+[
+    {
+        "tcode": "DB",
+        "name": "Dashboard"
+    },    
+    {
+        "tcode": "MD",
+        "name": "Master Data",
+        "childs": [
+            {
+                "tcode": "MD1",
+                "name": "Reference",
+                "childs": [
+                    {
+                        "tcode": "MDR1",
+                        "name": "Bank"
+                    },
+                    {
+                        "tcode": "MDR2",
+                        "name": "Currency"
+                    },
+                    {
+                        "tcode": "MDR3",
+                        "name": "Uom"
+                    }, 
+                    {
+                        "tcode": "MDR4",
+                        "name": "Tax"
+                    }            
+                ]
+            },
+            {
+                "tcode": "LM",
+                "name": "Location Management",
+                "childs": [
+                    {
+                        "tcode": "LM1",
+                        "name": "Country"
+                    },
+                    {
+                        "tcode": "LM2",
+                        "name": "Province"
+                    },
+                    {
+                        "tcode": "LM3",
+                        "name": "City"
+                    },
+                    {
+                        "tcode": "LM4",
+                        "name": "Location"
+                    },
+                    {
+                        "tcode": "LM5",
+                        "name": "Route"
+                    }
+                ]
+            },
+            {
+                "tcode": "CM",
+                "name": "Company Management",
+                "childs": [
+                    {
+                        "tcode": "CM1",
+                        "name": "Company"
+                    },
+                    {
+                        "tcode": "CM2",
+                        "name": "Branch"
+                    },
+                    {
+                        "tcode": "CM3",
+                        "name": "Bank Account"
+                    }
+                ]
+            },
+            {
+                "tcode": "VHC",
+                "name": "Vehicle Management",
+                "childs": [
+                    {
+                        "tcode": "VHC1",
+                        "name": "Item"
+                    }, 
+                    {
+                        "tcode": "VHC2",
+                        "name": "Maintenance Service"
+                    },
+                    {
+                        "tcode": "VHC3",
+                        "name": "Vehicle"
+                    },
+                    {
+                        "tcode": "VHC4",
+                        "name": "Vehicle Type"
+                    },
+                    {
+                        "tcode": "VHC5",
+                        "name": "Vehicle Brand"
+                    },
+                    {
+                        "tcode": "VHC6",
+                        "name": "Vehicle Document"
+                    }
+                ]
+            },
+            {
+                "tcode": "CRM",
+                "name": "Customer Management",
+                "childs": [
+                    {
+                        "tcode": "CRM1",
+                        "name": "Customer"
+                    }, 
+                    {
+                        "tcode": "CRM2",
+                        "name": "Customer Type"
+                    },
+                    {
+                        "tcode": "CRM3",
+                        "name": "Customer Approval"
+                    },
+                    {
+                        "tcode": "CRM4",
+                        "name": "Contact"
+                    }
+                ]
+            },
+            {
+                "tcode": "UM",
+                "name": "User Management",
+                "childs": [
+                    {
+                        "tcode": "UM1",
+                        "name": "Department"
+                    },
+                    {
+                        "tcode": "UM2",
+                        "name": "Job Position"
+                    },
+                    {
+                        "tcode": "UM3",
+                        "name": "Employee"
+                    },
+                    {
+                        "tcode": "UM4",
+                        "name": "Group"
+                    },
+                    {
+                        "tcode": "UM5",
+                        "name": "Module Management"
+                    },
+                    {
+                        "tcode": "UM6",
+                        "name": "User"
+                    },
+                    {
+                        "tcode": "UM7",
+                        "name": "Menu List"
+                    }
+                ]
+            },
+            {
+                "tcode": "VEM",
+                "name": "Vendor Management",
+                "childs": [                    
+                    {
+                        "tcode": "VEM1",
+                        "name": "Vendor"
+                    },
+                    {
+                        "tcode": "VEM2",
+                        "name": "Vendor Type"
+                    }
+                ]
+            },
+            {
+                "tcode": "SV",
+                "name": "Service"
+            },            
+            {
+                "tcode": "AC",
+                "name": "Activity"
+            },
+            {
+                "tcode": "PL",
+                "name": "Price List"
+            },
+            {
+                "tcode": "WA",
+                "name": "Workflow Approval"
+            },
+            {
+                "tcode": "CONF",
+                "name": "Configuration"
+            },            
+            {
+                "tcode": "NC",
+                "name": "Numbering Code"
+            }
+        ]
+    },
+    {
+        "tcode": "MK",
+        "name": "Marketing",
+        "childs": [
+            {
+                "tcode": "INQ",
+                "name": "Inquiry"
+            },
+            {
+                "tcode": "QUOT",
+                "name": "Quotation",
+                "childs": [
+                    {
+                        "tcode": "QUOT1",
+                        "name": "Quotation"
+                    },
+                    {
+                        "tcode": "QUOT2",
+                        "name": "Quotation Approval"
+                    },
+                    {
+                        "tcode": "QUOT3",
+                        "name": "Quotation Deal"
+                    },                    
+                    {
+                        "tcode": "QUOT4",
+                        "name": "Quotation Extend"
+                    },
+                    {
+                        "tcode": "QUOT5",
+                        "name": "Quotation Terminate"
+                    }
+                ]
+            },
+            {
+                "tcode": "AGR",
+                "name": "Agreement",
+                "childs": [
+                    {
+                        "tcode": "AGR1",
+                        "name": "Agreement"
+                    },
+                    {
+                        "tcode": "AGR2",
+                        "name": "Adendum Agreement"
+                    }
+                ]
+            },
+            {
+                "tcode": "JO",
+                "name": "Job Order"
+            },
+            {
+                "tcode": "JOC",
+                "name": "Job Order Close"
+            }
+        ]
+    },
+    {
+        "tcode": "OP",
+        "name": "Operation",
+        "childs": [
+            {
+                "tcode": "WO",
+                "name": "Work Order",
+                "childs": [
+                    {
+                        "tcode": "WO1",
+                        "name": "Work Order Create"
+                    },
+                    {
+                        "tcode": "WO2",
+                        "name": "Work Order Progress"
+                    },
+                    {
+                        "tcode": "WO3",
+                        "name": "Work Order Close"
+                    }
+                ]
+            },
+            {
+                "tcode": "RO",
+                "name": "Request Order",
+                "childs": [
+                    {
+                        "tcode": "RO1",
+                        "name": "Request Order"
+                    },
+                    {
+                        "tcode": "RO2",
+                        "name": "Stock List"
+                    }
+                ]
+            },
+            {
+                "tcode": "PR",
+                "name": "Purchase Request",
+                "childs": [
+                    {
+                        "tcode": "PR1",
+                        "name": "Purchase Request"
+                    },
+                    {
+                        "tcode": "PR2",
+                        "name": "Purchase Approval"
+                    }
+                ]
+            }, 
+            {
+                "tcode": "DLV",
+                "name": "Delivery"
+            },
+            {
+                "tcode": "DIS",
+                "name": "Disposal"
+            },
+            {
+                "tcode": "QC",
+                "name": "Quality Control"
+            },
+            {
+                "tcode": "RVO",
+                "name": "Receiving Order"
+            },
+            {
+                "tcode": "RVOW",
+                "name": "Receiving From WO"
+            },
+            {
+                "tcode": "RET",
+                "name": "Return"
+            }
+        ]
+    },
+    {
+        "tcode": "PRCH",
+        "name": "Purchasing",
+        "childs": [
+            {
+                "tcode": "PRO",
+                "name": "Purchase Order"
+            }, 
+            {
+                "tcode": "RCV",
+                "name": "Receiving Order"
+            },
+            {
+                "tcode": "RCVW",
+                "name": "Receiving From WO"
+            }
+        ]
+    },
+    {
+        "tcode": "MNR",
+        "name": "Maintenance and Repair",
+        "childs": [
+            {
+                "tcode": "REQ",
+                "name": "Request"
+            },
+            {
+                "tcode": "MSN",
+                "name": "Maintenance Survey/Notify"
+            },
+            {
+                "tcode": "SVY",
+                "name": "Survey",
+                "childs": [
+                    {
+                        "tcode": "SRVY",
+                        "name": "Survey"
+                    },
+                    {
+                        "tcode": "SRVA",
+                        "name": "Survey Approval"
+                    }
+                ]
+            },
+            {
+                "tcode": "WOMNR",
+                "name": "Work Order MNR",
+                "childs": [
+                    {
+                        "tcode": "WOMNRC",
+                        "name": "Work Order MNR Create"
+                    },
+                    {
+                        "tcode": "WOMNRP",
+                        "name": "Work Order MNR Progress"
+                    },
+                    {
+                        "tcode": "WOMNRCL",
+                        "name": "Work Order MNR Close"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tcode": "FNCE",
+        "name": "Finance",
+        "childs": [
+            {
+                "tcode": "PBR",
+                "name": "Proforma Billing Revenue",
+                "childs": [
+                    {
+                        "tcode": "PBR1",
+                        "name": "Billing Down Payment"
+                    },
+                    {
+                        "tcode": "PBR2",
+                        "name": "Rent Units"
+                    },
+                    {
+                        "tcode": "PBR3",
+                        "name": "Service MNR and Claim"
+                    },
+                    {
+                        "tcode": "PBR4",
+                        "name": "Other Service"
+                    },
+                    {
+                        "tcode": "PBR5",
+                        "name": "Other Penalty"
+                    },
+                    {
+                        "tcode": "PBR6",
+                        "name": "Approval Revenue"
+                    }
+                ]
+            }, 
+            {
+                "tcode": "ACNR",
+                "name": "Account Receivable",
+                "childs": [
+                    {
+                        "tcode": "ACNR01",
+                        "name": "Account receivable DP"
+                    }, 
+                    {
+                        "tcode": "ACNR02",
+                        "name": "Account Receivable"
+                    }
+                ]
+            },
+            {
+                "tcode": "RVCN",
+                "name": "Receivable Credit Note",
+                "childs": [
+                    {
+                        "tcode": "RVCN1",
+                        "name": "Credit Note"
+                    },
+                    {
+                        "tcode": "RVCN2",
+                        "name": "Credit Note Approval"
+                    }
+                ]
+            }, 
+            {
+                "tcode": "CPP",
+                "name": "Cost Payment Plan",
+                "childs": [
+                    {
+                        "tcode": "CPP1",
+                        "name": "Cost Payment Plan"
+                    },
+                    {
+                        "tcode": "CPP2",
+                        "name": "Cost Payment Approval"
+                    }
+                ]
+            },
+            {
+                "tcode": "CSC",
+                "name": "Cost Confirmation",
+                "childs": [
+                    {
+                        "tcode": "CSC1",
+                        "name": "Cost Confirm WO"
+                    },
+                    {
+                        "tcode": "CSC2",
+                        "name": "Cost Confirm PO"
+                    },
+                    {
+                        "tcode": "CSC3",
+                        "name": "Cost Confirm Approval"
+                    }
+                ]
+            },
+            {
+                "tcode": "PYP",
+                "name": "Payable",
+                "childs": [
+                    {
+                        "tcode": "PYP1",
+                        "name": "Account Payable"
+                    },
+                    {
+                        "tcode": "PYP2",
+                        "name": "Account Payable Approval"
+                    },
+                    {
+                        "tcode": "PYP3",
+                        "name": "Payable Payment"
+                    }
+                ]
+            },
+            {
+                "tcode": "ADV",
+                "name": "Advance",
+                "childs": [
+                    {
+                        "tcode": "ADV1",
+                        "name": "Advance (Bon Sementara)"
+                    },
+                    {
+                        "tcode": "ADV2",
+                        "name": "Advance Approval"
+                    }
+                ]
+            },
+            {
+                "tcode": "SADV",
+                "name": "Settlement Advance",
+                "childs": [
+                    {
+                        "tcode": "SADV1",
+                        "name": "Settlement Advance"
+                    },
+                    {
+                        "tcode": "SADV2",
+                        "name": "Settlement Approval"
+                    }
+                ]
+            },
+            {
+                "tcode": "UNRV",
+                "name": "Unearned Revenue"
+            },
+            {
+                "tcode": "AMUN",
+                "name": "Amortisasi Unearned"
+            },
+            {
+                "tcode": "CST",
+                "name": "Cost",
+                "childs": [
+                    {
+                        "tcode": "CST1",
+                        "name": "Cost Accrual"
+                    },
+                    {
+                        "tcode": "CST2",
+                        "name": "Cost Prepaid"
+                    }
+                ]
+            },
+            {
+                "tcode": "NRTR",
+                "name": "Nota Retur"
+            },
+            {
+                "tcode": "SCA",
+                "name": "Setup Coda Account"
+            },
+            {
+                "tcode": "CEX",
+                "name": "Coda Ektraksi"
+            },            
+            {
+                "tcode": "BTC",
+                "name": "Bridging To Coda"
+            }
+        ]
+    },
+    {
+        "tcode": "RPT",
+        "name": "Report",
+        "childs": [
+            {
+                "tcode": "RPT01",
+                "name": "SERVICE MONITORING REPORT"
+            },
+            {
+                "tcode": "RPT02",
+                "name": "WORK ORDER NON MNR MONITORING"
+            },
+            {
+                "tcode": "RPT03",
+                "name": "ORDER STATUS"                
+            },
+            {
+                "tcode": "RPT04",
+                "name": "VEHICLE JOURNEY"
+            }, 
+            {
+                "tcode": "RPT05",
+                "name": "Revenue Report"
+            },
+            {
+                "tcode": "RPT06",
+                "name": "Cost Report"
+            },
+            {
+                "tcode": "RPT07",
+                "name": "P/L Report"
+            },
+            {
+                "tcode": "RPT08",
+                "name": "Receiving Order report"
+            },
+            {
+                "tcode": "RPT09",
+                "name": "Report Vehicle Status Unit Non Asset"
+            }, 
+            {
+                "tcode": "RPT10",
+                "name": "Report Vehicle Status Unit Asset"
+            }, 
+            {
+                "tcode": "RPT11",
+                "name": "Payment Account Payable Report"
+            },
+            {
+                "tcode": "RPT12",
+                "name": "Maintenance Per Unit"
+            }
+        ]
+    }
+]
