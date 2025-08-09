@@ -11,6 +11,7 @@ import { AuthModule } from './module/auth/auth.module';
 import { UserModule } from './module/user/user.module';
 import { PublicModule } from './module/public/public.module';
 import { PostModule } from './module/post/post.module';
+import { DeepSeekModule } from './module/deep-seek/deep-seek.module';
 
 @Module({
   imports: [
@@ -20,7 +21,8 @@ import { PostModule } from './module/post/post.module';
     AuthModule,
     UserModule,
     PublicModule,
-    PostModule
+    PostModule,
+    DeepSeekModule,    
   ],
   controllers: [AppController],
   providers: [
